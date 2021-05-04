@@ -1,0 +1,52 @@
+@import './variabels.scss';
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 4, 4);
+  min-height: 100vh;
+  margin: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error {
+  color: red;
+  font-size: 20px;
+  margin: 5px;
+}
+.label {
+  color: $font_colorr;
+  font-size: 17px;
+}
+.btn {
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  background: rgb(235, 235, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 235, 234, 1) 0%,
+    rgba(23, 54, 124, 1) 0%,
+    rgba(48, 47, 37, 0.8631827731092436) 100%,
+    rgba(47, 165, 247, 0.9668242296918768) 100%,
+    rgba(200, 219, 232, 0.9069248338870431) 100%
+  );
+}
+.btn:hover {
+  background: rgb(235, 235, 234);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 235, 234, 1) 0%,
+    rgba(23, 124, 87, 1) 0%,
+    rgba(48, 47, 37, 0.8631827731092436) 100%,
+    rgba(47, 165, 247, 0.9668242296918768) 100%,
+    rgba(200, 219, 232, 0.9069248338870431) 100%
+  );
+  color: rgb(235, 235, 234);
+}

@@ -1,3 +1,6 @@
+@import './auth.scss';
+@import './variabels.scss';
+@import './navbar.scss';
 html,
 body {
   padding: 0;
@@ -13,4 +16,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.app_wraper{
+  margin-top: 40px;
+  padding: 0 13px;
 }
